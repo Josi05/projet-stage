@@ -1,0 +1,12 @@
+{
+  "name": "projet-stage",
+  "version": "1.0.0",
+  "description": "entrainement sass/scss",
+  "license": "ISC",
+  "author": "Josiane",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch scss/input.scss css/output.css"
+  }
+}
