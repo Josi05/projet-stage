@@ -1,5 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: aqua;
+  background: #f8f9fa;
+  color: #1e1e2f;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn--primary {
+  background: #5b5fef;
+  color: white;
+}
+.btn--secondary {
+  background: #ffb703;
+  color: #1e1e2f;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.modal.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.form-section {
+  padding: 60px 20px;
+}
+
+.form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.form__group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.form__group input,
+.form__group select {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=output.css.map */

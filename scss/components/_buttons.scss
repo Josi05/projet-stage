@@ -1,0 +1,17 @@
+.btn {
+  padding: 12px 20px;
+  border-radius: $radius;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+
+  &--primary {
+    background: $primary;
+    color: white;
+  }
+
+  &--secondary {
+    background: $secondary;
+    color: $dark;
+  }
+}

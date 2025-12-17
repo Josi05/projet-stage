@@ -6,7 +6,8 @@
   "author": "Josiane",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "sass-dev": "sass --watch scss/input.scss css/output.css"
-  }
+ "scripts": {
+  "sass-dev": "sass --watch scss/input.scss:css/output.css"
+}
+
 }
