@@ -1,3 +1,7 @@
-body {
-    background-color: aqua;
-}
+@import "./utils/variables";
+@import "./base/base";
+@import "./components/buttons";
+@import "./components/cards";
+@import "./components/modal";
+@import "./pages/home";
+@import "./components/form";
