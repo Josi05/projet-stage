@@ -7,41 +7,59 @@
 </head>
 <body>
 
-  <section class="hero">
-    <h1>Trouve ton stage sans stress</h1>
-    <button class="btn btn--primary">Commencer</button>
-  </section>
-
-  <section class="form-section">
-  <form class="form">
-    <h2>Rechercher un stage</h2>
-
-    <div class="form__group">
-      <label for="job">Métier</label>
-      <input type="text" id="job" placeholder="Développeuse web">
+  <header class="header">
+    <div class="header__content">
+      <h1>Trouve ton stage sans stress</h1>
+      <p>Des opportunités adaptées à ton profil.</p>
+      <button class="btn btn--primary">Commencer</button>
     </div>
+  </header>
 
-    <div class="form__group">
-      <label for="city">Ville</label>
-      <select id="city">
-        <option value="">Choisir une ville</option>
-        <option>Paris</option>
-        <option>Lyon</option>
-        <option>Marseille</option>
-      </select>
-    </div>
+  <main>
+    <section class="form-section">
+      <h2>Rechercher un stage</h2>
 
-    <button class="btn btn--primary" type="submit">
-      Rechercher
-    </button>
-  </form>
-</section>
+      <form class="form">
+        <div class="form__group">
+          <label for="job">Métier</label>
+          <input
+            type="text"
+            id="job"
+            name="job"
+            placeholder="Développeuse web"
+            required
+          >
+        </div>
 
+        <div class="form__group">
+          <label for="city">Ville</label>
+          <select id="city" name="city" required>
+            <option value="">Choisir une ville</option>
+            <option value="paris">Paris</option>
+            <option value="lyon">Lyon</option>
+            <option value="marseille">Marseille</option>
+          </select>
+        </div>
 
-  <section class="card">
-    <h2>Opportunités réelles</h2>
-    <p>Des offres sélectionnées pour toi.</p>
-  </section>
+        <button type="submit" class="btn btn--primary">
+          Rechercher
+        </button>
+      </form>
+    </section>
+
+  
+    <section class="cards">
+      <article class="card">
+        <h3>Opportunités réelles</h3>
+        <p>Des offres sélectionnées pour toi.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 – Stage Finder</p>
+  </footer>
 
 </body>
 </html>
